@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSLab1/ViewController.swift"
+            timestampString = "526277867.437301"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "getDifference(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSLab1/ViewController.swift"
+            timestampString = "526276894.858235"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOSLab1.ViewController.__deallocating_deinit"
+                  moduleName = "iOSLab1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/quangnguyen787/Desktop/TestSwift/iOSLab1/iOSLab1/ViewController.swift"
+                  timestampString = "526276711.979702"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOSLab1.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; iOSLab1.ViewController"
+                  moduleName = "iOSLab1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/quangnguyen787/Desktop/TestSwift/iOSLab1/iOSLab1/ViewController.swift"
+                  timestampString = "526276711.980791"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOSLab1.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; iOSLab1.ViewController"
+                  moduleName = "iOSLab1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/quangnguyen787/Desktop/TestSwift/iOSLab1/iOSLab1/ViewController.swift"
+                  timestampString = "526276711.981776"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOSLab1.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;iOSLab1.ViewController&gt;"
+                  moduleName = "iOSLab1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/quangnguyen787/Desktop/TestSwift/iOSLab1/iOSLab1/ViewController.swift"
+                  timestampString = "526276711.983"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOSLab1.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;iOSLab1.ViewController&gt;"
+                  moduleName = "iOSLab1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/quangnguyen787/Desktop/TestSwift/iOSLab1/iOSLab1/ViewController.swift"
+                  timestampString = "526276711.983958"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
