@@ -11,6 +11,7 @@ import Foundation
 struct CalculatorModel {
     private var accumulator: Double?
     private var mathOperator: String?
+    private var secondOperand: Double?
     
     var result: Double? {
         get {
@@ -32,7 +33,11 @@ struct CalculatorModel {
         accumulator = operand
     }
     
-    mutating func performOperation(_ symbol: String, secondOperand: Double = 0.0) {
+    mutating func setSecondOperand(_ operand: Double) {
+        secondOperand = operand
+    }
+    
+    mutating func performOperation(_ symbol: String) {
         switch symbol {
         case "+/-":
             if let operand = accumulator {
@@ -47,21 +52,24 @@ struct CalculatorModel {
                 accumulator = 0
             }
             mathOperator = ""
+            if secondOperand != nil {
+                secondOperand = nil
+            }
         case "+":
             if let operand = accumulator {
-                accumulator = operand + secondOperand
+                accumulator = operand + secondOperand!
             }
         case "-":
             if let operand = accumulator {
-                accumulator = operand - secondOperand
+                accumulator = operand - secondOperand!
             }
         case "*":
             if let operand = accumulator {
-                accumulator = operand * secondOperand
+                accumulator = operand * secondOperand!
             }
         case "÷":
             if let operand = accumulator {
-                accumulator = operand / secondOperand
+                accumulator = operand / secondOperand!
             }
         default:
             break

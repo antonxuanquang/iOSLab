@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSLab3/ViewController.swift"
+            timestampString = "528264386.336164"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "unaryOperation(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOSLab3.ViewController.unaryOperation (__ObjC.UIButton) -&gt; ()"
+                  moduleName = "iOSLab3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/quangnguyen787/Desktop/iOSLabs/iOSLab3/iOSLab3/ViewController.swift"
+                  timestampString = "528264147.444905"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "636">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOSLab3.ViewController.unaryOperation (__ObjC.UIButton) -&gt; ()"
+                  moduleName = "iOSLab3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/quangnguyen787/Desktop/iOSLabs/iOSLab3/iOSLab3/ViewController.swift"
+                  timestampString = "528264147.446845"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "824">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

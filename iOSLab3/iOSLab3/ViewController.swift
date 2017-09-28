@@ -19,7 +19,7 @@ class ViewController: UIViewController {
             return Double(display.text!)!
         }
         set {
-            display.text = String(newValue);
+            display.text = floor(newValue) == newValue ? String(format:"%.0f", newValue) : String(newValue)
         }
     }
     
@@ -40,8 +40,11 @@ class ViewController: UIViewController {
         let digit = sender.currentTitle!
         if inTypingmode {
             let textInDisplay = display.text!
-            display.text = textInDisplay + digit
-        } else {
+            if textInDisplay.characters.count <= 13 &&
+                (digit != "." || !textInDisplay.contains(".")) {
+                display.text = textInDisplay + digit
+            }
+        } else if digit != "0" {
             display.text = digit
             inTypingmode = true
         }
@@ -74,10 +77,12 @@ class ViewController: UIViewController {
     
     @IBAction func equalOperation(_ sender: UIButton) {
         print(calculatorModel.result!, calculatorModel.currentOperator!, displayValue)
-        calculatorModel.performOperation(calculatorModel.currentOperator!, secondOperand: displayValue)
+        calculatorModel.setSecondOperand(displayValue)
+        calculatorModel.performOperation(calculatorModel.currentOperator!)
         if let result = calculatorModel.result {
             displayValue = result
         }
+        inTypingmode = false
     }
 }
 
