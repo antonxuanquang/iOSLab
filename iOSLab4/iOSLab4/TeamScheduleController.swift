@@ -105,7 +105,7 @@ class TeamScheduleController: UIViewController, UITableViewDelegate, UITableView
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TeamScheduleCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "teamScheduleCell", for: indexPath) as! TeamScheduleCell
         cell.date.text = teamSchedule[indexPath.row][0]
         cell.home.text = teamSchedule[indexPath.row][1]
         cell.away.text = teamSchedule[indexPath.row][2]
