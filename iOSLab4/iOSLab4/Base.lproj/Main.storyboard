@@ -37,7 +37,7 @@
                     </view>
                     <connections>
                         <outlet property="pickerTeam" destination="705-Y3-yyV" id="c7K-MC-166"/>
-                        <segue destination="Cyg-3r-Le6" kind="presentation" identifier="teamDetail" id="75W-RT-Fj9"/>
+                        <segue destination="Cyg-3r-Le6" kind="show" identifier="teamDetail" id="75W-RT-Fj9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -61,7 +61,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="View Schedule"/>
                                 <connections>
-                                    <segue destination="Npp-K2-nst" kind="presentation" identifier="teamSchedule" id="Cbo-7q-jF8"/>
+                                    <segue destination="Npp-K2-nst" kind="show" identifier="teamSchedule" id="Cbo-7q-jF8"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kVP-po-wFH">
@@ -128,7 +128,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Home"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" id="oAf-jQ-ByR"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="oAf-jQ-ByR"/>
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4G1-Yk-odM">
@@ -136,7 +136,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="Qcq-Zg-ATl" customClass="TeamScheduleCell" customModule="iOSLab4">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="teamScheduleCell" id="Qcq-Zg-ATl" customClass="TeamScheduleCell" customModule="iOSLab4">
                                         <rect key="frame" x="0.0" y="28" width="343" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Qcq-Zg-ATl" id="ihN-LH-8ab">
@@ -187,7 +187,7 @@
                     </view>
                     <connections>
                         <outlet property="teamScheduleTable" destination="4G1-Yk-odM" id="G00-8f-keb"/>
-                        <segue destination="Cyg-3r-Le6" kind="modal" identifier="viewDetail" id="2f8-ke-FpY"/>
+                        <segue destination="Cyg-3r-Le6" kind="show" identifier="viewDetail" id="2f8-ke-FpY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1sm-gf-ugY" userLabel="First Responder" sceneMemberID="firstResponder"/>

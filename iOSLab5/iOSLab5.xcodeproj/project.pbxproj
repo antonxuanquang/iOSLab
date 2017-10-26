@@ -14,19 +14,9 @@
 		04A9FCB21FA1737E0003A86D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A9FCB01FA1737E0003A86D /* LaunchScreen.storyboard */; };
 		04A9FCBD1FA1737E0003A86D /* iOSLab5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9FCBC1FA1737E0003A86D /* iOSLab5Tests.swift */; };
 		04A9FCC81FA1737E0003A86D /* iOSLab5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9FCC71FA1737E0003A86D /* iOSLab5UITests.swift */; };
-		04A9FCDF1FA173C10003A86D /* Baylor.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A9FCD51FA173C10003A86D /* Baylor.png */; };
-		04A9FCE01FA173C10003A86D /* Iowa State.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A9FCD61FA173C10003A86D /* Iowa State.png */; };
-		04A9FCE11FA173C10003A86D /* Kansas.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A9FCD71FA173C10003A86D /* Kansas.png */; };
-		04A9FCE21FA173C10003A86D /* Kansas State.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A9FCD81FA173C10003A86D /* Kansas State.png */; };
-		04A9FCE31FA173C10003A86D /* Oklahoma.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A9FCD91FA173C10003A86D /* Oklahoma.png */; };
-		04A9FCE41FA173C10003A86D /* Oklahoma State.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A9FCDA1FA173C10003A86D /* Oklahoma State.png */; };
-		04A9FCE51FA173C10003A86D /* TCU.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A9FCDB1FA173C10003A86D /* TCU.png */; };
-		04A9FCE61FA173C10003A86D /* Texas Tech.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A9FCDC1FA173C10003A86D /* Texas Tech.png */; };
-		04A9FCE71FA173C10003A86D /* Texas.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A9FCDD1FA173C10003A86D /* Texas.png */; };
-		04A9FCE81FA173C10003A86D /* West Virginia.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A9FCDE1FA173C10003A86D /* West Virginia.png */; };
-		04A9FCEC1FA173D20003A86D /* TeamDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9FCE91FA173D20003A86D /* TeamDetailController.swift */; };
-		04A9FCED1FA173D20003A86D /* TeamScheduleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9FCEA1FA173D20003A86D /* TeamScheduleController.swift */; };
-		04A9FCEE1FA173D20003A86D /* TeamScheduleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9FCEB1FA173D20003A86D /* TeamScheduleCell.swift */; };
+		04FCB78A1FA28F20009502FB /* TeamDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FCB7871FA28F20009502FB /* TeamDetailController.swift */; };
+		04FCB78B1FA28F20009502FB /* TeamScheduleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FCB7881FA28F20009502FB /* TeamScheduleCell.swift */; };
+		04FCB78C1FA28F20009502FB /* TeamScheduleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FCB7891FA28F20009502FB /* TeamScheduleController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,19 +50,9 @@
 		04A9FCC31FA1737E0003A86D /* iOSLab5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSLab5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A9FCC71FA1737E0003A86D /* iOSLab5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSLab5UITests.swift; sourceTree = "<group>"; };
 		04A9FCC91FA1737E0003A86D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04A9FCD51FA173C10003A86D /* Baylor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Baylor.png; path = ../../../Baylor.png; sourceTree = "<group>"; };
-		04A9FCD61FA173C10003A86D /* Iowa State.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Iowa State.png"; path = "../../../Iowa State.png"; sourceTree = "<group>"; };
-		04A9FCD71FA173C10003A86D /* Kansas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Kansas.png; path = ../../../Kansas.png; sourceTree = "<group>"; };
-		04A9FCD81FA173C10003A86D /* Kansas State.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Kansas State.png"; path = "../../../Kansas State.png"; sourceTree = "<group>"; };
-		04A9FCD91FA173C10003A86D /* Oklahoma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Oklahoma.png; path = ../../../Oklahoma.png; sourceTree = "<group>"; };
-		04A9FCDA1FA173C10003A86D /* Oklahoma State.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Oklahoma State.png"; path = "../../../Oklahoma State.png"; sourceTree = "<group>"; };
-		04A9FCDB1FA173C10003A86D /* TCU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TCU.png; path = ../../../TCU.png; sourceTree = "<group>"; };
-		04A9FCDC1FA173C10003A86D /* Texas Tech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Texas Tech.png"; path = "../../../Texas Tech.png"; sourceTree = "<group>"; };
-		04A9FCDD1FA173C10003A86D /* Texas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Texas.png; path = ../../../Texas.png; sourceTree = "<group>"; };
-		04A9FCDE1FA173C10003A86D /* West Virginia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "West Virginia.png"; path = "../../../West Virginia.png"; sourceTree = "<group>"; };
-		04A9FCE91FA173D20003A86D /* TeamDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TeamDetailController.swift; path = ../../iOSLab4/iOSLab4/TeamDetailController.swift; sourceTree = "<group>"; };
-		04A9FCEA1FA173D20003A86D /* TeamScheduleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TeamScheduleController.swift; path = ../../iOSLab4/iOSLab4/TeamScheduleController.swift; sourceTree = "<group>"; };
-		04A9FCEB1FA173D20003A86D /* TeamScheduleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TeamScheduleCell.swift; path = ../../iOSLab4/iOSLab4/TeamScheduleCell.swift; sourceTree = "<group>"; };
+		04FCB7871FA28F20009502FB /* TeamDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamDetailController.swift; sourceTree = "<group>"; };
+		04FCB7881FA28F20009502FB /* TeamScheduleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamScheduleCell.swift; sourceTree = "<group>"; };
+		04FCB7891FA28F20009502FB /* TeamScheduleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamScheduleController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,19 +109,9 @@
 				04A9FCAE1FA1737E0003A86D /* Assets.xcassets */,
 				04A9FCB01FA1737E0003A86D /* LaunchScreen.storyboard */,
 				04A9FCB31FA1737E0003A86D /* Info.plist */,
-				04A9FCE91FA173D20003A86D /* TeamDetailController.swift */,
-				04A9FCEA1FA173D20003A86D /* TeamScheduleController.swift */,
-				04A9FCEB1FA173D20003A86D /* TeamScheduleCell.swift */,
-				04A9FCD51FA173C10003A86D /* Baylor.png */,
-				04A9FCD61FA173C10003A86D /* Iowa State.png */,
-				04A9FCD71FA173C10003A86D /* Kansas.png */,
-				04A9FCD81FA173C10003A86D /* Kansas State.png */,
-				04A9FCD91FA173C10003A86D /* Oklahoma.png */,
-				04A9FCDA1FA173C10003A86D /* Oklahoma State.png */,
-				04A9FCDB1FA173C10003A86D /* TCU.png */,
-				04A9FCDC1FA173C10003A86D /* Texas Tech.png */,
-				04A9FCDD1FA173C10003A86D /* Texas.png */,
-				04A9FCDE1FA173C10003A86D /* West Virginia.png */,
+				04FCB7871FA28F20009502FB /* TeamDetailController.swift */,
+				04FCB7881FA28F20009502FB /* TeamScheduleCell.swift */,
+				04FCB7891FA28F20009502FB /* TeamScheduleController.swift */,
 			);
 			path = iOSLab5;
 			sourceTree = "<group>";
@@ -274,18 +244,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A9FCE21FA173C10003A86D /* Kansas State.png in Resources */,
 				04A9FCB21FA1737E0003A86D /* LaunchScreen.storyboard in Resources */,
-				04A9FCE01FA173C10003A86D /* Iowa State.png in Resources */,
-				04A9FCE31FA173C10003A86D /* Oklahoma.png in Resources */,
-				04A9FCE11FA173C10003A86D /* Kansas.png in Resources */,
-				04A9FCE81FA173C10003A86D /* West Virginia.png in Resources */,
-				04A9FCE61FA173C10003A86D /* Texas Tech.png in Resources */,
 				04A9FCAF1FA1737E0003A86D /* Assets.xcassets in Resources */,
-				04A9FCE51FA173C10003A86D /* TCU.png in Resources */,
-				04A9FCE41FA173C10003A86D /* Oklahoma State.png in Resources */,
-				04A9FCE71FA173C10003A86D /* Texas.png in Resources */,
-				04A9FCDF1FA173C10003A86D /* Baylor.png in Resources */,
 				04A9FCAD1FA1737E0003A86D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,11 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A9FCEC1FA173D20003A86D /* TeamDetailController.swift in Sources */,
-				04A9FCEE1FA173D20003A86D /* TeamScheduleCell.swift in Sources */,
+				04FCB78A1FA28F20009502FB /* TeamDetailController.swift in Sources */,
+				04FCB78B1FA28F20009502FB /* TeamScheduleCell.swift in Sources */,
 				04A9FCAA1FA1737E0003A86D /* ViewController.swift in Sources */,
+				04FCB78C1FA28F20009502FB /* TeamScheduleController.swift in Sources */,
 				04A9FCA81FA1737E0003A86D /* AppDelegate.swift in Sources */,
-				04A9FCED1FA173D20003A86D /* TeamScheduleController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,6 +528,7 @@
 				04A9FCCE1FA1737E0003A86D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04A9FCCF1FA1737E0003A86D /* Build configuration list for PBXNativeTarget "iOSLab5Tests" */ = {
 			isa = XCConfigurationList;
@@ -576,6 +537,7 @@
 				04A9FCD11FA1737E0003A86D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04A9FCD21FA1737E0003A86D /* Build configuration list for PBXNativeTarget "iOSLab5UITests" */ = {
 			isa = XCConfigurationList;
@@ -584,6 +546,7 @@
 				04A9FCD41FA1737E0003A86D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

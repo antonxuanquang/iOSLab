@@ -9,16 +9,6 @@
 /* Begin PBXBuildFile section */
 		046348201F996E4500BE5A95 /* TeamScheduleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463481F1F996E4500BE5A95 /* TeamScheduleController.swift */; };
 		046348221F9974D300BE5A95 /* TeamScheduleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046348211F9974D300BE5A95 /* TeamScheduleCell.swift */; };
-		046348241F997EDC00BE5A95 /* Baylor.png in Resources */ = {isa = PBXBuildFile; fileRef = 046348231F997EDC00BE5A95 /* Baylor.png */; };
-		046348261F997F5400BE5A95 /* Iowa State.png in Resources */ = {isa = PBXBuildFile; fileRef = 046348251F997F5400BE5A95 /* Iowa State.png */; };
-		046348281F997F9200BE5A95 /* Kansas.png in Resources */ = {isa = PBXBuildFile; fileRef = 046348271F997F9200BE5A95 /* Kansas.png */; };
-		0463482A1F997FB000BE5A95 /* Kansas State.png in Resources */ = {isa = PBXBuildFile; fileRef = 046348291F997FB000BE5A95 /* Kansas State.png */; };
-		0463482C1F997FDF00BE5A95 /* Oklahoma.png in Resources */ = {isa = PBXBuildFile; fileRef = 0463482B1F997FDF00BE5A95 /* Oklahoma.png */; };
-		0463482E1F99800700BE5A95 /* Oklahoma State.png in Resources */ = {isa = PBXBuildFile; fileRef = 0463482D1F99800700BE5A95 /* Oklahoma State.png */; };
-		046348301F99803400BE5A95 /* TCU.png in Resources */ = {isa = PBXBuildFile; fileRef = 0463482F1F99803400BE5A95 /* TCU.png */; };
-		046348321F99809200BE5A95 /* Texas Tech.png in Resources */ = {isa = PBXBuildFile; fileRef = 046348311F99809200BE5A95 /* Texas Tech.png */; };
-		046348341F9980A500BE5A95 /* Texas.png in Resources */ = {isa = PBXBuildFile; fileRef = 046348331F9980A500BE5A95 /* Texas.png */; };
-		046348361F9980BC00BE5A95 /* West Virginia.png in Resources */ = {isa = PBXBuildFile; fileRef = 046348351F9980BC00BE5A95 /* West Virginia.png */; };
 		04A092401F996BA700D4EC8D /* TeamDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0923F1F996BA700D4EC8D /* TeamDetailController.swift */; };
 		04B344B11F98726900698BA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B344B01F98726900698BA4 /* AppDelegate.swift */; };
 		04B344B31F98726900698BA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B344B21F98726900698BA4 /* ViewController.swift */; };
@@ -49,16 +39,6 @@
 /* Begin PBXFileReference section */
 		0463481F1F996E4500BE5A95 /* TeamScheduleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamScheduleController.swift; sourceTree = "<group>"; };
 		046348211F9974D300BE5A95 /* TeamScheduleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamScheduleCell.swift; sourceTree = "<group>"; };
-		046348231F997EDC00BE5A95 /* Baylor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Baylor.png; path = ../../../Baylor.png; sourceTree = "<group>"; };
-		046348251F997F5400BE5A95 /* Iowa State.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Iowa State.png"; path = "../../../Iowa State.png"; sourceTree = "<group>"; };
-		046348271F997F9200BE5A95 /* Kansas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Kansas.png; path = ../../../Kansas.png; sourceTree = "<group>"; };
-		046348291F997FB000BE5A95 /* Kansas State.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Kansas State.png"; path = "../../../Kansas State.png"; sourceTree = "<group>"; };
-		0463482B1F997FDF00BE5A95 /* Oklahoma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Oklahoma.png; path = ../../../Oklahoma.png; sourceTree = "<group>"; };
-		0463482D1F99800700BE5A95 /* Oklahoma State.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Oklahoma State.png"; path = "../../../Oklahoma State.png"; sourceTree = "<group>"; };
-		0463482F1F99803400BE5A95 /* TCU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TCU.png; path = ../../../TCU.png; sourceTree = "<group>"; };
-		046348311F99809200BE5A95 /* Texas Tech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Texas Tech.png"; path = "../../../Texas Tech.png"; sourceTree = "<group>"; };
-		046348331F9980A500BE5A95 /* Texas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Texas.png; path = ../../../Texas.png; sourceTree = "<group>"; };
-		046348351F9980BC00BE5A95 /* West Virginia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "West Virginia.png"; path = "../../../West Virginia.png"; sourceTree = "<group>"; };
 		04A0923F1F996BA700D4EC8D /* TeamDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamDetailController.swift; sourceTree = "<group>"; };
 		04B344AD1F98726900698BA4 /* iOSLab4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSLab4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B344B01F98726900698BA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -132,16 +112,6 @@
 				04A0923F1F996BA700D4EC8D /* TeamDetailController.swift */,
 				0463481F1F996E4500BE5A95 /* TeamScheduleController.swift */,
 				046348211F9974D300BE5A95 /* TeamScheduleCell.swift */,
-				046348231F997EDC00BE5A95 /* Baylor.png */,
-				046348251F997F5400BE5A95 /* Iowa State.png */,
-				046348271F997F9200BE5A95 /* Kansas.png */,
-				046348291F997FB000BE5A95 /* Kansas State.png */,
-				0463482B1F997FDF00BE5A95 /* Oklahoma.png */,
-				0463482D1F99800700BE5A95 /* Oklahoma State.png */,
-				0463482F1F99803400BE5A95 /* TCU.png */,
-				046348311F99809200BE5A95 /* Texas Tech.png */,
-				046348331F9980A500BE5A95 /* Texas.png */,
-				046348351F9980BC00BE5A95 /* West Virginia.png */,
 			);
 			path = iOSLab4;
 			sourceTree = "<group>";
@@ -274,18 +244,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0463482A1F997FB000BE5A95 /* Kansas State.png in Resources */,
 				04B344BB1F98726900698BA4 /* LaunchScreen.storyboard in Resources */,
-				046348261F997F5400BE5A95 /* Iowa State.png in Resources */,
-				0463482C1F997FDF00BE5A95 /* Oklahoma.png in Resources */,
-				046348281F997F9200BE5A95 /* Kansas.png in Resources */,
-				046348361F9980BC00BE5A95 /* West Virginia.png in Resources */,
-				046348321F99809200BE5A95 /* Texas Tech.png in Resources */,
 				04B344B81F98726900698BA4 /* Assets.xcassets in Resources */,
-				046348301F99803400BE5A95 /* TCU.png in Resources */,
-				0463482E1F99800700BE5A95 /* Oklahoma State.png in Resources */,
-				046348341F9980A500BE5A95 /* Texas.png in Resources */,
-				046348241F997EDC00BE5A95 /* Baylor.png in Resources */,
 				04B344B61F98726900698BA4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
